@@ -1,0 +1,276 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CineAdviento//ES
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Adviento de Pelis 🎬
+BEGIN:VEVENT
+UID:cineadviento-1@local
+DTSTAMP:20261107T000000Z
+DTSTART:20261107T210000
+DTEND:20261107T233000
+SUMMARY:🍔 Harry Potter y la piedra filosofal
+DESCRIPTION:Cena: Hamburguesas caseras con cheddar\, bacon y patatas gajo\nCorta las patatas gajo y mételas al horno primero; las hamburguesas van al final.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:A cocinar: Hamburguesas caseras con cheddar\, bacon y patatas gajo
+TRIGGER:-PT90M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mañana: Harry Potter y la piedra filosofal – haz la compra
+TRIGGER:-PT26H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cineadviento-2@local
+DTSTAMP:20261107T000000Z
+DTSTART:20261108T210000
+DTEND:20261108T233000
+SUMMARY:🍝 Harry Potter y la cámara secreta
+DESCRIPTION:Cena: Lasaña boloñesa gratinada\nEl ragú necesita al menos 45 min a fuego lento antes de montar la lasaña.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:A cocinar: Lasaña boloñesa gratinada
+TRIGGER:-PT150M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mañana: Harry Potter y la cámara secreta – haz la compra
+TRIGGER:-PT26H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cineadviento-3@local
+DTSTAMP:20261107T000000Z
+DTSTART:20261114T210000
+DTEND:20261114T233000
+SUMMARY:🍕 Harry Potter y el prisionero de Azkaban
+DESCRIPTION:Cena: Pizza artesana de jamón\, mozzarella y bacon\nLa masa tiene que levar unas 3 horas: amásala ya.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:A cocinar: Pizza artesana de jamón\, mozzarella y bacon
+TRIGGER:-PT240M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mañana: Harry Potter y el prisionero de Azkaban – haz la compra
+TRIGGER:-PT26H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cineadviento-4@local
+DTSTAMP:20261107T000000Z
+DTSTART:20261115T210000
+DTEND:20261115T233000
+SUMMARY:🍖 Harry Potter y el cáliz de fuego
+DESCRIPTION:Cena: Costillas al horno con salsa barbacoa y patatas asadas\nLas costillas van tapadas con papel de aluminio 2 h a fuego bajo y luego se glasean.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:A cocinar: Costillas al horno con salsa barbacoa y patatas asadas
+TRIGGER:-PT210M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mañana: Harry Potter y el cáliz de fuego – haz la compra
+TRIGGER:-PT26H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cineadviento-5@local
+DTSTAMP:20261107T000000Z
+DTSTART:20261121T210000
+DTEND:20261121T233000
+SUMMARY:🌮 Harry Potter y la Orden del Fénix
+DESCRIPTION:Cena: Nachos gratinados con carne\, cheddar y guacamole\nHaz el guacamole al final para que no se oscurezca.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:A cocinar: Nachos gratinados con carne\, cheddar y guacamole
+TRIGGER:-PT60M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mañana: Harry Potter y la Orden del Fénix – haz la compra
+TRIGGER:-PT26H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cineadviento-6@local
+DTSTAMP:20261107T000000Z
+DTSTART:20261122T210000
+DTEND:20261122T233000
+SUMMARY:🥘 Harry Potter y el misterio del príncipe
+DESCRIPTION:Cena: Canelones de carne con bechamel y queso gratinado\nPrepara el relleno y la bechamel antes de hervir las placas.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:A cocinar: Canelones de carne con bechamel y queso gratinado
+TRIGGER:-PT150M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mañana: Harry Potter y el misterio del príncipe – haz la compra
+TRIGGER:-PT26H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cineadviento-7@local
+DTSTAMP:20261107T000000Z
+DTSTART:20261128T210000
+DTEND:20261128T233000
+SUMMARY:🌯 Harry Potter y las reliquias de la muerte (Parte 1)
+DESCRIPTION:Cena: Burritos de pollo con arroz\, queso y salsa de yogur\nCuece el arroz mientras marinas el pollo.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:A cocinar: Burritos de pollo con arroz\, queso y salsa de yogur
+TRIGGER:-PT60M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mañana: Harry Potter y las reliquias de la muerte (Parte 1) – haz la compra
+TRIGGER:-PT26H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cineadviento-8@local
+DTSTAMP:20261107T000000Z
+DTSTART:20261129T210000
+DTEND:20261129T233000
+SUMMARY:🥩 Harry Potter y las reliquias de la muerte (Parte 2)
+DESCRIPTION:Cena: Solomillo de cerdo con salsa de pimienta y patatas panaderas\nLas panaderas tardan más: empiézalas antes de sellar el solomillo.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:A cocinar: Solomillo de cerdo con salsa de pimienta y patatas panaderas
+TRIGGER:-PT90M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mañana: Harry Potter y las reliquias de la muerte (Parte 2) – haz la compra
+TRIGGER:-PT26H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cineadviento-9@local
+DTSTAMP:20261107T000000Z
+DTSTART:20261205T210000
+DTEND:20261205T233000
+SUMMARY:🍕 Solo en casa
+DESCRIPTION:Cena: Pizza estilo Nueva York de pepperoni y mozzarella\nMasa con 3–4 h de levado. Si puedes\, hazla la noche anterior.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:A cocinar: Pizza estilo Nueva York de pepperoni y mozzarella
+TRIGGER:-PT240M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mañana: Solo en casa – haz la compra
+TRIGGER:-PT26H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cineadviento-10@local
+DTSTAMP:20261107T000000Z
+DTSTART:20261206T210000
+DTEND:20261206T233000
+SUMMARY:🌭 Solo en casa 2: Perdido en Nueva York
+DESCRIPTION:Cena: Perritos calientes con cebolla crujiente\, cheddar y patatas fritas\nFríe las patatas al final para que lleguen crujientes.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:A cocinar: Perritos calientes con cebolla crujiente\, cheddar y patatas fritas
+TRIGGER:-PT60M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mañana: Solo en casa 2: Perdido en Nueva York – haz la compra
+TRIGGER:-PT26H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cineadviento-11@local
+DTSTAMP:20261107T000000Z
+DTSTART:20261212T210000
+DTEND:20261212T233000
+SUMMARY:🍗 El Grinch
+DESCRIPTION:Cena: Pollo asado con miel y mostaza\, con patatas crujientes\nUnta el pollo con miel y mostaza y riégalo con su jugo cada 20 min.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:A cocinar: Pollo asado con miel y mostaza\, con patatas crujientes
+TRIGGER:-PT120M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mañana: El Grinch – haz la compra
+TRIGGER:-PT26H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cineadviento-12@local
+DTSTAMP:20261107T000000Z
+DTSTART:20261213T210000
+DTEND:20261213T233000
+SUMMARY:🧀 Elf
+DESCRIPTION:Cena: Macarrones con queso y tiras de pollo crujiente\nEmpana el pollo mientras hierve la pasta.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:A cocinar: Macarrones con queso y tiras de pollo crujiente
+TRIGGER:-PT60M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mañana: Elf – haz la compra
+TRIGGER:-PT26H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cineadviento-13@local
+DTSTAMP:20261107T000000Z
+DTSTART:20261219T210000
+DTEND:20261219T233000
+SUMMARY:🥪 Polar Express
+DESCRIPTION:Cena: Sándwiches mixtos gourmet de jamón y tres quesos\nY aprovecha para preparar el chocolate caliente.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:A cocinar: Sándwiches mixtos gourmet de jamón y tres quesos
+TRIGGER:-PT45M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mañana: Polar Express – haz la compra
+TRIGGER:-PT26H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cineadviento-14@local
+DTSTAMP:20261107T000000Z
+DTSTART:20261220T210000
+DTEND:20261220T233000
+SUMMARY:🍚 The Holiday
+DESCRIPTION:Cena: Risotto cremoso de parmesano con pollo y bacon\nTen el caldo caliente antes de empezar: el risotto no espera.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:A cocinar: Risotto cremoso de parmesano con pollo y bacon
+TRIGGER:-PT60M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mañana: The Holiday – haz la compra
+TRIGGER:-PT26H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cineadviento-15@local
+DTSTAMP:20261107T000000Z
+DTSTART:20261224T210000
+DTEND:20261224T233000
+SUMMARY:🎄 Love Actually
+DESCRIPTION:Cena: Tabla de ibéricos y quesos\, croquetas caseras\, hojaldritos de jamón y queso\, y tarta de chocolate\nLa masa de croquetas tiene que enfriar horas y la tarta necesita nevera. ¡Empieza ya!
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:A cocinar: Tabla de ibéricos y quesos\, croquetas caseras\, hojaldritos de jamón y queso\, y tarta de chocolate
+TRIGGER:-PT360M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mañana: Love Actually – haz la compra
+TRIGGER:-PT26H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
