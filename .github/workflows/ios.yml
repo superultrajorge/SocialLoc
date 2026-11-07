@@ -1,0 +1,31 @@
+name: iOS build
+on:
+  push:
+    branches: [claude/movie-advent-calendar-app-dywa57]
+    paths: ['ios/**', '.github/workflows/ios.yml']
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: macos-26
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Xcode
+        run: |
+          ls /Applications | grep -i xcode || true
+          xcodebuild -version
+          xcodebuild -showsdks | grep -i ios || true
+      - name: Build (simulator, sin firma)
+        run: |
+          cd ios/CineAdviento
+          if xcodebuild -project CineAdviento.xcodeproj -target CineAdviento -sdk iphonesimulator \
+               -configuration Debug CODE_SIGNING_ALLOWED=NO build > build.log 2>&1; then
+            grep -E "warning:" build.log | sort -u | head -40 || true
+            echo "BUILD OK"
+          else
+            echo "===== ERRORS ====="
+            grep -E "error:" build.log | sort -u | head -80
+            echo "===== TAIL ====="
+            tail -40 build.log
+            exit 1
+          fi
